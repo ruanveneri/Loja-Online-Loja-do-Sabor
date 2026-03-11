@@ -24,3 +24,16 @@ div {
 div:hover {
     font-size: 1.2em;
 }
+
+button {
+    background-color: rgb(101, 91, 182);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(101, 91, 182, 0.8);
+}

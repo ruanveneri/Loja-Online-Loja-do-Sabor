@@ -1,0 +1,26 @@
+@MEDIA (max-width: 767px) {
+    main section {
+        flex-direction: column;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+    }
+
+    header nav a {
+        flex: 1 1 50%;
+    }
+
+    main section article img {
+        width: 60%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 959px) {
+    main section {
+        flex-wrap: wrap;
+    }
+
+
+}
